@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Machine Learning in R: Workshop Series</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Marius Puchalla" />
+    <link rel="stylesheet" href="custom/xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="custom/custom-theme.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: left, middle, inverse, title-slide
+
+# Machine Learning in R:<br/>Workshop Series
+## Introduction
+### Marius Puchalla
+### <em>Institute of Public Economics II </em>
+### 2020-08-20 (updated: 2020-10-25)
+
+---
+
+
+
+
+
+
+
+
+name: agenda
+
+##Agenda
+
+**1. What to expect from the seminar**
+
+**2. Seminar Requirements**
+
+**3. Seminar Schedule and content**
+
+**4. Structure of the course **
+ 1. Lectures  
+ 2. Q&amp;A Sessions  
+ 3. Workshops  
+ 4. Problemsets 
+ 5. Exam
+
+  
+**5. Brief introduction to machine learning**
+  1. Statistical Learning vs Machine Learning   
+  2. Examples  
+  3. Basic definitions   
+  4. Supervised / Unsupervised Learning
+
+
+**6. Further help and information**
+
+
+  
+
+???
+comment
+
+---
+
+class: middle, center, inverse
+
+#1 What to expect from the seminar
+
+---
+
+background-image: url(https://cdn.fileinfo.com/img/icons/files/128/rproj-10013.png)
+background-position: 95% 5%
+background-size: 7.5%
+layout: true
+
+---
+
+##1. What to expect from the seminar
+
+Gain Knowledge: After the seminar, you will know how the most popular statistical learning models work and how they are used for prediction and inference in science and technology.
+
+Develop skills: You will learn how to choose a suitable statistical model and how to apply the methods you learned about to different questions. Further, you data science capabilities will be expanded.
+
+
+
+???
+comment
+
+---
+
+class: middle, center, inverse
+
+#2 Seminar requirements
+
+---
+
+background-image: url(https://cdn.fileinfo.com/img/icons/files/128/rproj-10013.png)
+background-position: 95% 5%
+background-size: 7.5%
+layout: true
+
+---
+
+##2 Seminar requirements
+
+
+&lt;img src="./Bilder/Modulhandbuch.PNG" width="70%" height="70%" style="display: block; margin: auto;" /&gt;
+]
+
+???
+comment
+
+---
+##2 Seminar requirements
+### Important information before you start! 
+-Please register with me until 3/11.
+
+-You need to registrate yourself at the examination office until the 17/11.
+
+---
+
+class: middle, center, inverse
+
+#3: Seminar Schedule
+
+---
+##3 Schedule
+
+&lt;img src="./Bilder/Zeitplan.PNG" width="65%" height="75%" style="display: block; margin: auto;" /&gt;
+
+???
+comments
+
+---
+
+background-image: url(https://cdn.fileinfo.com/img/icons/files/128/rproj-10013.png)
+background-position: 95% 5%
+background-size: 7.5%
+layout: true
+
+---
+
+
+class: middle, center, inverse
+
+#4 Structure of the course
+
+---
+
+background-image: url(https://cdn.fileinfo.com/img/icons/files/128/rproj-10013.png)
+background-position: 95% 5%
+background-size: 7.5%
+layout: true
+
+---
+
+##4.1: Lecture
+.pull-left[
+**'Textbook'**
+
+- Gareth James, Daniela Witten, Trevor Hastie Robert Tibshirani 2013 An Introduction to Statistical Learning with Applications in R 
+- The electronic version of the book ( is available for free from the author‘s website, including all needed R packages http :://faculty marshall usc edu/gareth james/ISL/index html 
+- Solutions for all book exercises may also be found on the Internet, albeit being unofficial
+- Unofficial
+solutions to the lab parts can be found here :http://blog.princehonest.com/stat-learning/
+]
+
+.pull-right[
+&lt;img src="./Bilder/Book.PNG" width="70%" height="70%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+
+
+##4.1: Lecture I
+
+&lt;img src="./Bilder/Edx1.PNG" width="75%" height="75%" style="display: block; margin: auto;" /&gt;
+####[https://www.edx.org/course/statistical-learning](Statistical Learning)
+-If you register on the 2nd. November you will have free access up to January 2021!
+---
+
+
+##4.1: Lecture II
+
+&lt;img src="./Bilder/Edx2.PNG" width="75%" height="75%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+##4.1: Lecture III
+
+&lt;img src="./Bilder/Edx3.PNG" width="75%" height="75%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+##4.1: Lecture IV
+
+&lt;img src="./Bilder/Edx4.PNG" width="75%" height="75%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+
+##4.2: Questions
+
+.pull-left[
+**`Q&amp;A Sessions`:**
+- Mondays 4pm.
+- Questions focussed on the specific chapters of the weeks.
+- Questions regarding other chapters will be answered, but have a lower priority.
+
+**`Other Questions`:**
+- Please ask your questions in the learnweb course.
+- Please try to answer the questions of your classmates.
+- We will correct wrong answers and try to give support.
+]
+
+
+---
+
+##4.3: Workshops
+
+.pull-left[
+**'What is happening in the workshops?'**
+- Live seasons which will be recorded.
+- Additional techniques such as tidyverse, causal forest etc.
+- Parts of the workshops will be relevant for the exam.
+]
+
+---
+
+##4.4: Problemsets
+.pull-left[
+**'Content of the Problemsets'**
+- The problemsets consist of several programming tasks covering most topics.
+- Two-parted problemsets which can be found in the learnweb alongside the datasets.
+
+**'Submissions of the Problemsets'**
+- Problemsets are supposed to be done in groups of 2-3 people.
+- Problemsets have to be transmitted via Github.
+]
+&lt;img src="./Bilder/Learnweb.PNG" width="75%" height="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+##4.5: Exam
+- The exam will be January 2021.
+
+##Topics covered in the exam:
+- machine learning techniques on a theoretical basis.
+- Code snippets with output.
+
+
+---
+
+
+class: middle, center, inverse
+
+#5 Brief introduction to machine learning
+
+---
+
+background-image: url(https://cdn.fileinfo.com/img/icons/files/128/rproj-10013.png)
+background-position: 95% 5%
+background-size: 7.5%
+layout: true
+
+---
+
+##5.1: Statistical Learning to machine learning
+
+
+&lt;img src="./Bilder/MLStart.PNG" width="40%" height="40%" style="display: block; margin: auto;" /&gt;
+[Source](https://xkcd.com/1838/)
+
+---
+
+##5.1: Statistical Learning to machine learning
+
+-Machine learning arose as a subfield of Artifical Intelligence.
+
+-Statistical learning arose as a subfield of Statistics.
+
+-There is much overlap - both fields focus on supervised and unsupervised problems:
+  + Machine learning has a greater emphasis on large scale applications and prediction accuracy.
+  + Statistical learning emphasizes models and their interpretability, and precision and uncertainty.
+  
+-But the distinction has become more and more blurred and there is a great deal of "cross-fertilization".
+
+-Machine learning has the upper hand in Marketing!
+
+###[Introduction to Machine Learning](https://vas3k.com/blog/machine_learning/)
+
+---
+
+##5.1: Statistical Learning to machine learning
+
+&lt;img src="./Bilder/MLStat.PNG" width="75%" height="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+##5.1: Statistical Learning to machine learning
+
+&lt;img src="./Bilder/Perspective.PNG" width="50%" height="75%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+##5.1: Statistical Learning to machine learning
+
+&lt;img src="./Bilder/DataCircle.PNG" width="60%" height="75%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+##5.1: Statistical Learning to machine learning
+
+&lt;img src="./Bilder/Overview.PNG" width="60%" height="75%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+##5.2: Examples I
+####Spam Detection
+-Data from 4601 emails sent to an individual (named George, at HP labs, before 2000). Each is labeled as spam or email.
+-goal: build a customized spam filter.
+-input features: relative frequencies of 57 of the most commonly occuring words and punctuation marks in these email messages.
+&lt;img src="./Bilder/Spam.PNG" width="50%" height="75%" style="display: block; margin: auto;" /&gt;
+Average percentage of words or characters in an email message equal to the indicated word or character. We have chosen the words and characters showing the largest difference between spam and email.
+
+
+
+---
+
+##5.2: Examples II
+####Prediction of Heart Attacks
+&lt;img src="./Bilder/Heart.PNG" width="45%" height="45%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+##5.2: Examples III
+####Using LANDSAT images
+&lt;img src="./Bilder/Satellite.PNG" width="50%" height="75%" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+
+##5.3: Basic definitions
+###Supervised Learning:
+####For every x we also observe a response y
+-We measure the predictor X (a vector that might consist of multiple independent variables) as well as the outcome Y (also a vector of variables). Our primary goal is to predict unseen test cases, nut also to understand which inputs affect the outcome, and how.
+- Example: Estimating housing values by OLS or random forest.
+
+###Unsupervised Learning:
+####For each observation we only observe x but do not observe y
+-We only measure the predictor variables, there is no outcome variable. Our goal is to find a structure in the data, i.e. groups that behave similarly. It is difficult to know how well we are doing.
+- Example: Clustering custormers into segments; usiong principle component analysis for dimension reduction.
+---
+
+##5.4: Supervised / Unsupervised Learning
+&lt;img src="./Bilder/SuperUnsuper.PNG" width="80%" height="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+
+
+class: middle, center, inverse
+
+#6 Further help and information
+
+---
+
+background-image: url(https://cdn.fileinfo.com/img/icons/files/128/rproj-10013.png)
+background-position: 95% 5%
+background-size: 7.5%
+layout: true
+
+---
+
+##6.1: Stack overflow
+&lt;img src="./Bilder/Stack.PNG" width="90%" height="75%" style="display: block; margin: auto;" /&gt;
+
+#####[Stack overflow](https://stackoverflow.com/)
+
+
+---
+
+
+##6.2: Google is your friend
+##Learn how to search effectively
+
+- Exact phrase: "supervised learning"
+- Exclude terms: "supervised learning" -Lasso
+- Either OR: supervised learning OR unsupervised learning
+- Synonym search: supervised ~learning
+- Search within a site: site:stackoverflow.com supervised learning
+- Power of asterisk: supervised * learning [gets you related words to supervised]
+
+---
+
+##6.3: Coursera
+##Further your understanding
+
+.pull-left[
+-Coursera is a learning plattform foundes by Andrew Ng and Daphne Koller) offers more than 2,000 open online courses.
+
+-[Coursera](www.coursera.org)
+]
+
+.pull-right[
+&lt;img src="./Bilder/Coursera.PNG" width="90%" height="90%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+##6.4: Kaggle
+##Further your understanding
+
+
+-Kaggle is a data science page which features competition and open datasets.
+-[Kaggle](www.kaggle.ocom)
+
+
+
+&lt;img src="./Bilder/Kaggle.PNG" width="70%" height="90%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+##6.5: Towards Data Science
+##Further your understanding
+
+.pull-left[
+-Towards Data Science is blog on Medium geared towards Data Science
+-Many applications and examples of Data Science in industry and academia
+
+-[Towards Data Science](www.towardsdatascience.com)
+]
+
+.pull-right[
+&lt;img src="./Bilder/DataScience.PNG" width="90%" height="90%" style="display: block; margin: auto;" /&gt;
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
